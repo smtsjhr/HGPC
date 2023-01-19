@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>HGPCodes</title>
+    <title>HGPC</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <base href="/">
@@ -22,14 +22,17 @@
     <script type="text/javascript" src="../HGPCodes/HGPCode.js"></script>
   </head>
   <body>
-    <h2>HyperGraph Product Codes</h2>
+    <h2>HyperGraph Product Codes Visualizer</h2>
+    <h3>This demo illustrates some of the results presented in <a class="header_link" href="https://arxiv.org/abs/2204.10812v1" rel="noopener noreferrer" target="_blank">"Partitioning qubits in hypergraph product codes to implement logical gates"</a>.</h3>
+    <h3>View source on <a class="header_link" href="https://github.com/smtsjhr/HGPC" rel="noopener noreferrer" target="_blank">github</a>. </h3>
+    <h3>Check out the script <a class="header_link" href="https://github.com/smtsjhr/HGPC/blob/main/HGPCode.js" rel="noopener noreferrer" target="_blank">HGPCode.js</a> for a general class implementing the relevant functionallity </h3>
+    <h3>** NOTE:: This is a Work In Progress **</h3>
     <br>
     <hr>
     <br>
-    <br>
-    <h3>\(HGP(H, H) \)</h3>
-    <p>(Repetition Code)</p>
+    <h2>Repetition Code (cyclic)</h2>
     <p>$H = \begin{bmatrix}1 & 1 & 0  \\ 0 & 1 & 1 \\ 1 & 0 & 1  \end{bmatrix}$   </p>
+    <h3>\(HGP(H, H) \)</h3>
     <a href="../HGPCodes/repetition/logicals.html"><h3>Logicals: \( \mathcal{L}_x \) and \( \mathcal{L}_z \)</h3></a>
     <a href="../HGPCodes/repetition/stabilizers.html"><h3>Stabilizers: \(S_x \) and \(S_z \)</h3></a>
     <a href="../HGPCodes/repetition/commutations_SxLz.html"><h3>Commutations: \(S_x \) and \( \mathcal{L}_z \)</h3></a>
@@ -37,8 +40,8 @@
     
     <hr>
     <br>
+    <h2>Hamming Code</h2>
     <h3>\(HGP(H, H) \)</h3>
-    <p>(Hamming Code)</p>
     <p>$H = \begin{bmatrix}1 & 1 & 0 & 1 & 1 & 0 & 0 \\ 1 & 0 & 1 & 1 & 0 & 1 & 0 \\ 0 & 1 & 1 & 1 & 0 & 0 & 1 \\ 1 & 0 & 1 & 0 & 1 & 0 & 1 \end{bmatrix}$   </p>
     <a href="../HGPCodes/hamming/logicals.html"><h3>Logicals: \( \mathcal{L}_x \) and \( \mathcal{L}_z \)</h3></a>
     <a href="../HGPCodes/hamming/stabilizers.html"><h3>Stabilizers: \(S_x \) and \(S_z \)</h3></a>
